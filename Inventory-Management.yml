@@ -1,5 +1,13 @@
 server:
-  port: 8082
+  port: 8089
 spring:
   application:
     name: Inventory-Management
+
+#Microservice eureka registraiton configuration.
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: false
+    service-url:
+      default-zone: http://localhost:9096/eureka

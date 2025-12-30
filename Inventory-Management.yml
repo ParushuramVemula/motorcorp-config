@@ -4,6 +4,7 @@ spring:
   application:
     name: Inventory-Management
 
+#Microservice eureka registraiton configuration.
 eureka:
   client:
     register-with-eureka: true

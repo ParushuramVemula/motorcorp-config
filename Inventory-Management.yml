@@ -17,4 +17,6 @@ eureka:
     register-with-eureka: true
     fetch-registry: false
     service-url:
-      default-zone: http://localhost:9096/eureka
+      default-zone: http://localhost:9096/eureka/
+
+
